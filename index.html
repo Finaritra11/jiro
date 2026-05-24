@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jirama</title>
+    <link rel="stylesheet" href="ji.css">
+    <link rel="style" href="./Poppins/Poppins-Regular.ttf">
+    <link rel="stylesheet" href="./fontawesome-pro_v7.1.0/css/all.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Jiram'ora</h1>
+        <div class="card">
+            <button class="btn active" id="kwh">Kwh->MGA</button>
+
+        </div>
+
+        <div class="tarif">
+            <label>Ton type de tarif:</label><br>
+            <select name="choix" id="choix">
+                <option value="Sociale">Sociale</option>
+                <option value="Economique">Economique</option>
+                <option value="Confort">Confort</option>
+            </select>
+            <div class="input">
+                <label for="quantite">Kwh achete:</label>
+                <input id="quantite" type="number" placeholder="ex:50kwh">
+            </div>
+
+            <button class="clc" id="clc">Calculer le prix</button>
+            <a href="./methode.html"><button class="methode"> Methode pour acheter un credit</button></a>
+
+
+        </div>
+
+        <div id="resul" class="resul">
+            <h1>Details:</h1>
+            <p id="resultat"></p>
+            <p id="prime"></p>
+            <p id="totalpayer"></p>
+        </div>
+
+
+
+    </div>
+    <script src="jiro.js" defer></script>
+</body>
+
+</html>

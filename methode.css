@@ -1,0 +1,105 @@
+@font-face {
+    font-family:"poppins";
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    font-family:'poppins';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+    
+body{
+    box-sizing: border-box;
+    background:#0f172a;
+    color:#e2e8f0;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    animation: anime 1s ease-out;
+    color: #fc9d5e;
+}
+h3{
+    font-weight: 600;
+    font-size: 26px;
+    margin: 10px 0;
+  
+}
+.container{
+    max-width: 600px;
+    background:#121d3a;
+    width: 100%;
+    border-radius: 13px;
+    animation: anime 1s ease-out;
+    padding: 15px 0px;
+}
+
+
+#op{
+    text-align: center;
+    margin: 40px 0;  
+    animation: anime 2s ease-out;
+}
+
+.code .call{
+    color: #000408;
+    background-color: rgb(28, 228, 78);
+    font-size: 14px;
+    padding: 8px 20px;
+    font-weight: normal;
+    border-radius: 5px;
+    border: none;
+}
+
+.code p{
+    font-size: 16px;
+    margin-bottom: 12px;
+    
+}
+
+.astuce{
+    max-width: 600px;
+    background:#121d3a;
+    width: 100%;
+    border-radius: 8px;
+    margin: 15px 0;
+     animation: anime 1s ease-out;
+   
+}
+
+@keyframes anime{
+    from{
+        transform: translateY(-100px);
+    }
+    
+}
+
+.astuce h4{
+    color: #04ff75;
+    font-size: 13px;
+    padding: 5px;
+    font-weight:500; 
+}
+
+.contact{
+    margin: 30px 0;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.contact a{
+    color: #e2e8f0;
+}
+
